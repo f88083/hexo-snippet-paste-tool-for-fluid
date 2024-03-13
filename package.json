@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "hexo-syntax-paste-tool-for-fluid.helloWorld",
-        "title": "Hello World"
+        "command": "hexo-syntax-paste-tool-for-fluid.pasteYoutubeEmbed",
+        "title": "Paste Youtube Embed with customized size"
       }
     ]
   },
