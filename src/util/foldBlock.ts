@@ -3,7 +3,7 @@ import * as vscode from 'vscode';
 export async function foldBlock() {
     // Obtain the active text editor
     const editor = vscode.window.activeTextEditor;
-    if (!editor) return;
+    if (!editor) {return;}
 
     // UI for Width and Height Input
     vscode.window.showInputBox({

@@ -3,7 +3,7 @@ import * as vscode from 'vscode';
 export async function youtubeEmbedPaste() {
 	// Obtain the active text editor
 	const editor = vscode.window.activeTextEditor;
-	if (!editor) return;
+	if (!editor) {return;}
 
 	// Obtain clipboard content
 	const clipboard_content = await vscode.env.clipboard.readText();
