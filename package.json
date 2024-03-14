@@ -22,6 +22,11 @@
         "command": "hexo-syntax-paste-tool-for-fluid.pasteFoldBlock",
         "title": "Paste Fold Block",
         "category": "Fluid Paste Tool"
+      },
+      {
+        "command": "hexo-syntax-paste-tool-for-fluid.pasteNote",
+        "title": "Paste Note",
+        "category": "Fluid Paste Tool"
       }
     ]
   },
