@@ -15,7 +15,13 @@
     "commands": [
       {
         "command": "hexo-syntax-paste-tool-for-fluid.pasteYoutubeEmbed",
-        "title": "Paste Youtube Embed with customized size"
+        "title": "Paste Youtube Embed with customized size",
+        "category": "Fluid Paste Tool"
+      },
+      {
+        "command": "hexo-syntax-paste-tool-for-fluid.pasteFoldBlock",
+        "title": "Paste Fold Block",
+        "category": "Fluid Paste Tool"
       }
     ]
   },
