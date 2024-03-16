@@ -1,9 +1,10 @@
 # Change Log
 
-All notable changes to the "hexo-syntax-paste-tool-for-fluid" extension will be documented in this file.
+## [1.0.0] - 2024-03-16
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+### Added
 
-## [Unreleased]
-
-- Initial release
+- 3 new commands
+  - Paste Youtube Embed Code
+  - Paste Fold Block
+  - Paste Note
