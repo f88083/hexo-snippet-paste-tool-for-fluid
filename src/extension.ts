@@ -6,15 +6,15 @@ import { note } from './util/note';
 export function activate(context: vscode.ExtensionContext) {
 
 	// Register multiple commands
-	let youtubeEmbedCommand = vscode.commands.registerCommand('hexo-syntax-paste-tool-for-fluid.pasteYoutubeEmbed', () => {
+	let youtubeEmbedCommand = vscode.commands.registerCommand('hexo-snippet-paste-tool-for-fluid.pasteYoutubeEmbed', () => {
 		youtubeEmbedPaste();
 	});
 
-	let foldBlockCommand = vscode.commands.registerCommand('hexo-syntax-paste-tool-for-fluid.pasteFoldBlock', () => {
+	let foldBlockCommand = vscode.commands.registerCommand('hexo-snippet-paste-tool-for-fluid.pasteFoldBlock', () => {
 		foldBlock();
 	});
 
-	let noteCommand = vscode.commands.registerCommand('hexo-syntax-paste-tool-for-fluid.pasteNote', () => {
+	let noteCommand = vscode.commands.registerCommand('hexo-snippet-paste-tool-for-fluid.pasteNote', () => {
 		note();
 	});
 	
