@@ -30,7 +30,7 @@
     "commands": [
       {
         "command": "hexo-snippet-paste-tool-for-fluid.pasteYoutubeEmbed",
-        "title": "Paste Youtube Embed with customized size",
+        "title": "Paste Youtube Embed Code",
         "category": "Fluid Paste Tool"
       },
       {
