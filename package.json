@@ -1,30 +1,45 @@
 {
-  "name": "hexo-syntax-paste-tool-for-fluid",
-  "displayName": "hexo-syntax-paste-tool-for-fluid",
-  "description": "A paste tool for Hexo specifically for theme Fluid",
-  "version": "0.0.1",
+  "name": "hexo-snippet-paste-tool-for-fluid",
+  "displayName": "Hexo Snippet Paste Tool for Fluid",
+  "description": "A snippet paste tool for Hexo specifically for theme Fluid",
+  "version": "1.0.0",
+  "author": {
+    "name": "Simon Lai",
+    "email": "f88083@gmail.com"
+  },
+  "icon": "",
   "engines": {
     "vscode": "^1.87.0"
   },
   "categories": [
-    "Other"
+    "Snippets"
   ],
+  "keywords": [
+    "hexo",
+    "fluid",
+    "snippet",
+    "paste"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "hexo-syntax-paste-tool-for-fluid.pasteYoutubeEmbed",
+        "command": "hexo-snippet-paste-tool-for-fluid.pasteYoutubeEmbed",
         "title": "Paste Youtube Embed with customized size",
         "category": "Fluid Paste Tool"
       },
       {
-        "command": "hexo-syntax-paste-tool-for-fluid.pasteFoldBlock",
+        "command": "hexo-snippet-paste-tool-for-fluid.pasteFoldBlock",
         "title": "Paste Fold Block",
         "category": "Fluid Paste Tool"
       },
       {
-        "command": "hexo-syntax-paste-tool-for-fluid.pasteNote",
+        "command": "hexo-snippet-paste-tool-for-fluid.pasteNote",
         "title": "Paste Note",
         "category": "Fluid Paste Tool"
       }
@@ -39,14 +54,15 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.87.0",
     "@types/mocha": "^10.0.6",
     "@types/node": "18.x",
+    "@types/vscode": "^1.87.0",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
-    "eslint": "^8.56.0",
-    "typescript": "^5.3.3",
     "@vscode/test-cli": "^0.0.6",
-    "@vscode/test-electron": "^2.3.9"
-  }
+    "@vscode/test-electron": "^2.3.9",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
+  },
+  "pricing": "Free"
 }
