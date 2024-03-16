@@ -17,15 +17,18 @@ No setting requirement
 ## Usage
 
 * After installed the extension
-* Press `F1` to open command
+* Press `F1` to open the command palette
 ![command](img/f1.png)
 * Type in `Fluid Paste Tool`, you should see the commands like below by typing in a few characters
 ![commands list](img/commands.png)
-* All the available commands are listed below (Most of the snippets can be found in [Fluid Docs](https://hexo.fluid-dev.com/docs/en/guide/))
-  * `Paste Youtube Embed with customized size`
+* All the available commands are listed below (Most of the snippets can be found in [Fluid Docs](https://hexo.fluid-dev.com/docs/en/guide/)), detailed command information can be found in my [notes](https://hackmd.io/@simonlai23/HJGxJqQCp)
+  * `Paste Youtube Embed Code`
   * `Paste Fold Block`
   * `Paste Note`
 * Choose one of them to paste automatically to the editor (some commands may required to type in title or type etc. to customize the snippet)
+![Ready to paste note](img/paste-note.png)
+* Press Enter
+![Pasted note](img/pasted-note.png)
 
 ## Known Issues
 
@@ -35,4 +38,4 @@ None so far
 
 ### 1.0.0
 
-Initial release of hexo-snippet-paste-tool-for-fluid
+Initial release
