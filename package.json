@@ -53,6 +53,11 @@
         "command": "hexo-snippet-paste-tool-for-fluid.pasteCheckBox",
         "title": "Paste Check Box",
         "category": "Fluid Paste Tool"
+      },
+      {
+        "command": "hexo-snippet-paste-tool-for-fluid.pasteButton",
+        "title": "Paste Button",
+        "category": "Fluid Paste Tool"
       }
     ]
   },

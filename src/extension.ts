@@ -4,6 +4,7 @@ import { foldBlock } from './util/foldBlock';
 import { note } from './util/note';
 import { label } from './util/label';
 import { checkBox } from './util/checkBox';
+import { button } from './util/button';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -28,12 +29,17 @@ export function activate(context: vscode.ExtensionContext) {
 		checkBox();
 	});
 
+	let buttonCommand = vscode.commands.registerCommand('hexo-snippet-paste-tool-for-fluid.pasteButton', () => {
+		button();
+	});
+
 	// Add the commands to the context
 	context.subscriptions.push(youtubeEmbedCommand);
 	context.subscriptions.push(foldBlockCommand);
 	context.subscriptions.push(noteCommand);
 	context.subscriptions.push(labelCommand);
 	context.subscriptions.push(checkBoxCommand);
+	context.subscriptions.push(buttonCommand);
 }
 
 // This method is called when your extension is deactivated
