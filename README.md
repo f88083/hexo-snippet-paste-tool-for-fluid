@@ -25,17 +25,12 @@ No setting requirement
   * `Paste Youtube Embed Code`
   * `Paste Fold Block`
   * `Paste Note`
+  * `Paste Label`
+  * `Paste CheckBox`
+  * `Paste Button`
+  * `Paste GroupImages`
+  * `Paste Mermaid`
 * Choose one of them to paste automatically to the editor (some commands may required to type in title or type etc. to customize the snippet)
 ![Ready to paste note](img/paste-note.png)
 * Press Enter
 ![Pasted note](img/pasted-note.png)
-
-## Known Issues
-
-None so far
-
-## Release Notes
-
-### 1.0.0
-
-Initial release
