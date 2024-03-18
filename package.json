@@ -43,6 +43,16 @@
         "command": "hexo-snippet-paste-tool-for-fluid.pasteNote",
         "title": "Paste Note",
         "category": "Fluid Paste Tool"
+      },
+      {
+        "command": "hexo-snippet-paste-tool-for-fluid.pasteLabel",
+        "title": "Paste Label",
+        "category": "Fluid Paste Tool"
+      },
+      {
+        "command": "hexo-snippet-paste-tool-for-fluid.pasteCheckBox",
+        "title": "Paste Check Box",
+        "category": "Fluid Paste Tool"
       }
     ]
   },
