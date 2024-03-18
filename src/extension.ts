@@ -5,6 +5,7 @@ import { note } from './util/note';
 import { label } from './util/label';
 import { checkBox } from './util/checkBox';
 import { button } from './util/button';
+import { groupImages } from './util/groupImages';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -33,6 +34,10 @@ export function activate(context: vscode.ExtensionContext) {
 		button();
 	});
 
+	let groupImagesCommand = vscode.commands.registerCommand('hexo-snippet-paste-tool-for-fluid.pasteGroupImages', () => {
+		groupImages();		
+	});
+
 	// Add the commands to the context
 	context.subscriptions.push(youtubeEmbedCommand);
 	context.subscriptions.push(foldBlockCommand);
@@ -40,6 +45,7 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(labelCommand);
 	context.subscriptions.push(checkBoxCommand);
 	context.subscriptions.push(buttonCommand);
+	context.subscriptions.push(groupImagesCommand);
 }
 
 // This method is called when your extension is deactivated
