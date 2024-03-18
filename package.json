@@ -63,6 +63,11 @@
         "command": "hexo-snippet-paste-tool-for-fluid.pasteGroupImages",
         "title": "Paste Group Images",
         "category": "Fluid Paste Tool"
+      },
+      {
+        "command": "hexo-snippet-paste-tool-for-fluid.pasteMermaid",
+        "title": "Paste Mermaid",
+        "category": "Fluid Paste Tool"
       }
     ]
   },

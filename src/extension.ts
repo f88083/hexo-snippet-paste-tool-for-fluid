@@ -6,6 +6,7 @@ import { label } from './util/label';
 import { checkBox } from './util/checkBox';
 import { button } from './util/button';
 import { groupImages } from './util/groupImages';
+import { mermaid } from './util/mermaid';
 
 export function activate(context: vscode.ExtensionContext) {
 
@@ -38,6 +39,11 @@ export function activate(context: vscode.ExtensionContext) {
 		groupImages();		
 	});
 
+	let mermaidCommand = vscode.commands.registerCommand('hexo-snippet-paste-tool-for-fluid.pasteMermaid', () => {
+		mermaid();
+	});
+
+
 	// Add the commands to the context
 	context.subscriptions.push(youtubeEmbedCommand);
 	context.subscriptions.push(foldBlockCommand);
@@ -46,6 +52,7 @@ export function activate(context: vscode.ExtensionContext) {
 	context.subscriptions.push(checkBoxCommand);
 	context.subscriptions.push(buttonCommand);
 	context.subscriptions.push(groupImagesCommand);
+	context.subscriptions.push(mermaidCommand);
 }
 
 // This method is called when your extension is deactivated
