@@ -1,7 +1,5 @@
 import * as vscode from 'vscode';
 
-// {% btn url, text, title %}
-
 export async function button() {
     // Obtain the active text editor
     const editor = vscode.window.activeTextEditor;
