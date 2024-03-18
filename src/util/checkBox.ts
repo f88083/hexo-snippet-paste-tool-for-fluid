@@ -29,7 +29,6 @@ export async function checkBox() {
 function prepareCheckBox(text: string | undefined, checked: string | undefined, inline: string | undefined): string {
     // Modify the fold block content with the specified text or checked or inline
     if (checked !== undefined && inline !== undefined) {
-        console.log('Captured both checked and inline undefined');
         return `{% cb ${text}, ${checked}, ${inline} %}\n`;
     } else if (checked !== undefined) {
         return `{% cb ${text}, ${checked} %}\n`;
