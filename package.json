@@ -2,7 +2,7 @@
   "name": "hexo-snippet-paste-tool-for-fluid",
   "displayName": "Hexo Snippet Paste Tool for Fluid",
   "description": "A snippet paste tool for Hexo specifically for theme Fluid",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "author": {
     "name": "Simon Lai",
     "email": "f88083@gmail.com"
